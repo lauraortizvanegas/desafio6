@@ -351,3 +351,13 @@ margin-right: 40px !important;
   background-color: #6a007a; 
 }
 }
+
+.image-container {
+  max-height: 200px; 
+  overflow: hidden; 
+}
+
+.image-container img {
+  width: 100%; 
+  height: auto; 
+}

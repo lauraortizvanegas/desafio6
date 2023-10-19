@@ -2,86 +2,310 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum</title>
-    <link href="./assets/css/cv.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo.jpg" type="image/png">
+  <title>Examen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="./assets/css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="container mt-4">
-        <header class="text-center header">
-            <h1 class="display-4">Curriculum Vitae</h1>
-        </header>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <h2 class="logo-banner">LAURA ORTIZ</h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active animated">
+          <a class="nav-link" href="#about-us">Acerca de mi</a>
+        </li>
+        <li class="nav-item active animated">
+          <a class="nav-link" href="#education">Educación</a>
+        </li>
+        <li class="nav-item animated">
+          <a class="nav-link" href="#experience">Experiencia</a>
+        </li>
+        <li class="nav-item animated">
+          <a class="nav-link" href="#portfolio">Portafolio</a>
+        </li>
+        <li class="nav-item animated">
+          <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+      </ul>
 
-        <section class="mt-4 fotoCv">
-            <div class="text-center">
-                <img src="./assets/img/FOTO1.jpg"
-                    alt="Amparo Grisales" class="img-fluid rounded" style="max-width: 250px;">
-            </div>
-            <h2 class="text-center mt-3">Laura Vivivana Ortiz Vanegas</h2>
-        </section>
-
-        <hr>
-
-        <section class="section-header">
-            <h2 class="section-title">Resumen</h2>
-        </section>
-        <section class="section-content">
-            <p> Una colombiana que, hace cuatro años, encontró un nuevo hogar en Chile. A lo largo de su carrera, ha diversificado su experiencia laboral, desempeñándose en roles como cajera, ventas de ropa, trabajo en una panadería, venta de postres y la gestión de un local de kinos. Su versatilidad y habilidades interpersonales la han llevado a destacarse en cada uno de estos roles. Su determinación y adaptabilidad han sido activos clave en su vida profesional, lo que la hace una candidata valiosa en cualquier entorno laboral.</p>
-        </section>
-
-        <hr>
-
-        <section class="section-header">
-            <h2 class="section-title">Datos personales</h2>
-        </section>
-        <section class="section-content">
-            <ul>
-                <li><strong>Nombre:</strong>Laura Vivivana Ortiz Vanegas</li>
-                <li><strong>Lugar de nacimiento:</strong> Cali Valle del Cauca, Colombia</li>
-                <li><strong>Fecha de nacimiento:</strong> 05 de Enero del 1996 (27 años)</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section class="section-header">
-            <h2 class="section-title">Formación</h2>
-        </section>
-        <section class="section-content">
-            <p>Hija de German de Jesus Ortiz Colorado y de Orlandy Vanegas Valencia</p>
-            <p>Hermana de Carolina Ortiz Vanegas (hermana mayor)</p>
-            <p>Crecio en Caicedona Valle del Cauca, un Pueblo a 3 horas de cali donde estudio en una escuela su primaria y termino su secundaria en Belen de Úmbria Risaranda. </p>
-        </section>
-
-        <hr>
-
-        <section class="section-header">
-            <h2 class="section-title">Premios y reconocimientos</h2>
-        </section>
-        <section class="section-content">
-            <ol>
-                <li>En 2015 hizo un curso de Buenas Practicas de Manufactura en el SENA.</li>
-                <li>En 2017 hizo un curso de mackeup intensivo en Armenia Quindio.</li>
-                <li>En 2023 hizo un curso sobre los principios básicos de la programación en Google Activate.</li>
-
-            </ol>
-        </section>
-
-        <section class="mt-4 text-center buttons">
-            <!-- Botón personalizado para redirigir a la página "portafolio.html" -->
-            <a class="btn-custom" href="portafolio.html">Ver Portafolio</a>
-            <!-- Botón personalizado para redirigir a la página de Instagram -->
-            <a class="btn-custom" href="https://www.instagram.com/amparogrisalesactriz/" target="_blank">Instagram</a>
-        </section>
     </div>
+  </nav>
 
-    <!-- Enlace a los scripts de Bootstrap y jQuery si es necesario -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+  <main class="star-background">
+    <section class="descubre">
+      <div class="container">
+        <h2 class="banner-title">Descubre Mi Portafolio</h2>
+        <p class="banner-description">
+          Revisa los proyectos en los cuales he participado y los servicios que ofrezco.
+        </p>
+        <a href="#portfolio" class="banner-button">Ver Portafolio</a>
+      </div>
+    </section>
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <h2 class="section-title">Acerca de mi</h2>
+        <p>Hola, soy una colombiana que encontró un nuevo hogar en Chile hace cuatro años. A lo largo de mi carrera, he
+          diversificado mi experiencia laboral y he desempeñado roles muy variados que me han permitido crecer y
+          aprender de manera constante.</p>
+
+        <p>Comencé mi trayectoria como cajera, donde adquirí habilidades en el manejo de transacciones y en atender a
+          los clientes con amabilidad y profesionalismo. Esta fue mi primera experiencia laboral en Chile, y desde
+          entonces, he tenido la oportunidad de explorar diferentes áreas.</p>
+
+        <p>Mi siguiente paso me llevó al mundo de la moda, donde me desempeñé en ventas de ropa. Aquí, ayudé a los
+          clientes a encontrar su estilo y ofrecí asesoramiento experto en moda. Fue una experiencia enriquecedora que
+          me permitió crecer tanto a nivel profesional como personal.</p>
+
+        <p>Mi pasión por la panadería me llevó a trabajar en una, donde contribuí a la creación de deliciosos productos
+          horneados que conquistaron los corazones de los clientes. También me aventuré en la venta de postres,
+          aplicando mi toque personal para crear creaciones dulces que dejaron una impresión duradera en quienes las
+          probaron.</p>
+
+        <p>Pero el reto más emocionante llegó cuando tuve la oportunidad de gestionar un local de kinos. Dirigir un
+          negocio no es tarea fácil, pero acepté el desafío con determinación y habilidades de liderazgo. Asumí la
+          responsabilidad de gestionar el personal, atender a los clientes y administrar los recursos del
+          establecimiento.</p>
+
+        <p>Mi vida laboral ha estado marcada por la adaptabilidad y la perseverancia. He demostrado una y otra vez mi
+          capacidad para destacar en diferentes roles, y siempre estoy dispuesta a aprender y crecer. Mi personalidad
+          amigable y mi actitud positiva son activos que puedo aportar a cualquier entorno laboral, y mi experiencia
+          diversa me convierte en una candidata valiosa para cualquier equipo.</p>
+
+        <p>Si estás buscando a alguien que pueda aportar versatilidad, habilidades interpersonales sobresalientes y una
+          actitud proactiva a tu empresa, puedo ser la elección ideal. Mi viaje desde Colombia hasta Chile y mi historia
+          laboral diversa son ejemplos de las contribuciones que puedo hacer en tu organización.</p>
+
+      </div>
+    </section>
+    <section class="experience bg-purple" id="education">
+      <h1 class="mb-4 tittle">Educación</h1>
+      <div class="row ">
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/anexa.jpg" class="card-img-top">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Colegio Anexa María Enmaculada:</h5>
+              <p class="card-text">2006-2010</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/normal-maria-enmaculada.png" class="card-img-top" alt="Servicio 2">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Colegio Normal Superio María Enmaculada </h5>
+              <p class="card-text">2011-2017 </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/mackeup.jfif" class="card-img-top" alt="Servicio 2">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Intensivo Mackeup </h5>
+              <p class="card-text">2019 </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/sena.png" class="card-img-top" alt="Servicio 2">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Sena </h5>
+              <p class="card-text">Buenas Prácticas de manufactura</p>
+              <p class="card-text">2018 </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/desafio.png" class="card-img-top" alt="Servicio 3">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Desafío Latam</h5>
+              <p class="card-text">Desarrollo Web</p>
+              <p class="card-text">2023-2023</p>
+            </div>
+    
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/google.png" class="card-img-top" alt="Servicio 4">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Google Activate</h5>
+              <p class="card-text">Introducción Desarrollo WEB</p>
+              <p class="card-text">2023-2023</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="experience bg-purple" id="experience">
+      <h1 class="mb-4 tittle">Experiencia</h1>
+      <div class="row ">
+        <!-- Tarjeta 1 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/cajera.jpg" class="card-img-top">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Cajera:</h5>
+              <p class="card-text">Como cajera, adquirí valiosas habilidades en el manejo de transacciones y en la atención al cliente con amabilidad y profesionalismo. Mi trabajo consistía en procesar pagos, proporcionar recibos precisos y garantizar una experiencia satisfactoria para los clientes en el punto de venta. Esta posición me permitió desarrollar destrezas en la gestión del efectivo y en el uso de sistemas de punto de venta, lo que resultó fundamental en mi crecimiento profesional.</p>
+            </div>
+
+          </div>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/ventaRopa.jpg" class="card-img-top" alt="Servicio 2">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Venta de Ropa: </h5>
+              <p class="card-text">Mi experiencia en ventas de ropa me llevó a adentrarme en el mundo de la moda. Durante este tiempo, tuve la oportunidad de asesorar a los clientes en la elección de prendas que reflejaran su estilo personal. Proporcioné orientación experta sobre tendencias y combinaciones de ropa, lo que contribuyó a la satisfacción de los compradores. Esta experiencia enriquecedora me permitió combinar mi pasión por la moda con mis habilidades de servicio al cliente.</p>
+            </div>
+
+          </div>
+        </div>
+        <!-- Tarjeta 3 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/panaderia.jpg" class="card-img-top" alt="Servicio 3">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Panadería:</h5>
+              <p class="card-text">Trabajar en una panadería fue una experiencia deliciosa. Aquí, contribuí a la creación de una amplia variedad de productos horneados, desde panes frescos hasta pasteles y bollería. Mi papel involucraba la preparación de masa, la supervisión de horneados y la creación de deliciosos productos que conquistaron los corazones de nuestros clientes. Además, también participé en la venta de postres, aportando mi toque personal para crear creaciones dulces que dejaron una impresión duradera en quienes las probaron.</p>
+            </div>
+    
+          </div>
+        </div>
+        <!-- Tarjeta 4 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="./assets/img/chance.jpg" class="card-img-top" alt="Servicio 4">
+            <div class="card-body flex-grow-1">
+              <h5 class="card-title">Gestión de Local de Kinos:</h5>
+              <p class="card-text">Dirigir un local de kinos fue un emocionante desafío que acepté con determinación y habilidades de liderazgo. Mi responsabilidad principal era gestionar el personal, garantizar un servicio eficiente a los clientes y administrar los recursos del establecimiento. Esto implicaba la coordinación de horarios, la supervisión de operaciones diarias y la toma de decisiones clave para mantener el negocio en funcionamiento. A lo largo de esta experiencia, fortalecí mis habilidades de liderazgo y gestión, lo que resultó en un valioso crecimiento profesional.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="portfolio" id="portfolio">
+
+      <div class="container-fluid mt-5 text-center">
+        <h1 class="mb-4 tittle">Portafolio</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 justify-content-center align-items-center">
+          <div class="col-12 col-md-6 col-lg-4 mb-4 text-center">
+            <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">Familia Canina (HTML/CSS/BOOSTRAP5)</h2>
+
+                <div >
+                  <img src="./assets/img/familia_canina.PNG" style="height: 300px; width: 500px;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mb-4 text-center">
+            <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">Cupon (HTML/CSS/BOOSTRAP5)</h2>
+
+                <div >
+                  <img src="./assets/img/cupon.PNG" style="height: 300px; width: 500px;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">Curriculum (HTML/CSS/BOOSTRAP5)</h2>
+
+                <div >
+                  <img src="./assets/img/cv.PNG" style="height: 300px; width: 500px;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">PC FACTORY (HTML/CSS/BOOSTRAP5)</h2>
+
+                <div >
+                  <img src="./assets/img/pc_factory.PNG" style="height: 300px; width: 500px;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      </div>
+
+    </section>
+
+
+    <section class="contact" id="contact" >
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+
+    <section class="social-links">
+      <h2 style="color: white;">Síguenos en Redes Sociales</h2>
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com/profile.php?id=61550722716745" class="icon"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://instagram.com/lauraortizvanegas?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr" class="icon"><i class="fa-brands fa-instagram"></i></i></a></li>
+        <!-- Agrega más enlaces a redes sociales según sea necesario -->
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2023 Laura Ortiz. Todos los derechos reservados.</p>
+  </footer>
 </body>
 
 </html>

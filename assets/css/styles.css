@@ -1,0 +1,353 @@
+.tittle {
+  color: white;
+}
+
+.bg-purple {
+  color: white; 
+  padding: 20px; 
+}
+
+
+
+header {
+  background-color: #f8f9fa!important;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+  transition: background-color 0.3s; 
+}
+
+.logo{
+  height: 155px;
+  width: 174px;
+}
+
+.nav-item {
+  margin-right: 20px; 
+  font-size: 28px; 
+  font-family: 'Arial', sans-serif; 
+  transition: color 0.3s ease; 
+}
+
+
+.nav-item a {
+  color: #ca6ce5;
+  text-decoration: none; 
+}
+
+.nav-item:hover {
+  color: #ca6ce5; 
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    font-size: 16px; 
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-item.animated {
+  animation: slideIn 0.5s ease; 
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #663399;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.about-us {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 36px;
+}
+
+.about-us p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.experience {
+  background-color: #ca6ce5 !important; 
+  padding: 20px;
+  text-align: center;
+}
+
+.experience h1 {
+  font-size: 36px;
+}
+
+.experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience li {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experience p {
+  font-size: 18px;
+}
+
+
+
+.star-background {
+  background: url("./../img/vector.jpg") no-repeat center center fixed;
+  background-size: cover;
+  animation: moveStars 10s linear infinite;
+}
+
+@keyframes moveStars {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+
+.card-img-top {
+  height: 200px !important;
+}
+
+.card-title {
+  color: #800080;
+  font-size: 25px;
+}
+
+.card-text {
+  color: #800080;
+}
+
+.btn-primary {
+  background-color: #ca6ce5; 
+  color: white; 
+}
+
+.about-us {
+  background-color: #ca6ce5; 
+  color: white; 
+  padding: 50px 0; 
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px; 
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.container p {
+  font-size: 18px; 
+  line-height: 1.6; 
+}
+
+.descubre {
+  background-image: url("banner-image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.banner-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #ca6ce5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+  background-color: #6a007a; 
+}
+
+.social-links {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.social-links h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.icon {
+  display: inline-block;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  transition: transform 0.3s ease;
+  color:white;
+  background-color: #ca6ce5 !important;
+  color: white;
+  font-size: 18px;
+}
+
+i{
+  font-size: 53px
+}
+
+a:hover {
+  color:white !important;;
+  background-color: #ca6ce5 !important;
+}
+
+
+.icon:hover {
+  transform: scale(1.2); 
+}
+
+.map-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.map-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#map {
+  width: 100%;
+  height: 400px; 
+}
+
+.card {
+  transition: transform 0.3s ease-in-out; 
+}
+
+.card:hover {
+  transform: translate(0, -10px); 
+}
+
+.portfolio .card {
+  width: 100%;
+}
+
+.logo-banner{
+color: #ca6ce5;
+font-size: 40px;
+margin-right: 40px !important;
+}
+
+
+.contact {
+  background-color:  #663399; 
+  padding: 50px 0; 
+  text-align: center; 
+}
+
+.contact h2 {
+  color: white;
+  font-size: 36px; 
+  margin-bottom: 20px; 
+}
+
+.contact form {
+  max-width: 500px; 
+  margin: 0 auto; 
+}
+
+.contact .form-group {
+  margin-bottom: 20px; 
+
+.contact label {
+  font-size: 18px; 
+}
+
+.contact input,
+.contact textarea {
+  font-size: 16px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  width: 100%; 
+}
+
+.contact button {
+  background-color: #ca6ce5; 
+  color: white; 
+  font-size: 18px; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.contact button:hover {
+  background-color: #6a007a; 
+}
+}
